@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #16D5FF;
+    --primary: #ffca00;
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
@@ -307,7 +307,7 @@ h6,
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--secondary);
+    color: #FFFFFF;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -318,24 +318,24 @@ h6,
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--secondary);
+    color: #FFFFFF;
     margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: #000000;
     letter-spacing: 1px;
     box-shadow: none;
 }
 
 .footer .btn.btn-square {
-    color: var(--primary);
-    border: 1px solid var(--primary);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
 
 .footer .btn.btn-square:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: #000000;
 }
 
 .footer .copyright {
