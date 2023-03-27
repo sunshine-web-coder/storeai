@@ -15,7 +15,30 @@
     background-color: #ffffff !important;
     color: #000000 !important;
 } */
-/* .h_social a{
-    background-color: #ffffff !important;
-    color: #000000 !important;
+.h_social a {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+/* .f_social a {
+  color: #000000 !important;
 } */
+.h_social a svg,
+.f_social a svg {
+  fill: #000000;
+  widows: 23px;
+  height: 23px;
+}
+.h_social a svg:hover,
+.f_social a svg:hover {
+  fill: #ffffff !important;
+}
+.h_social a {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.h_social a:hover {
+  background-color: #000000 !important;
+}
+.yellow_bg_p {
+  color: #272727 !important;
+}
