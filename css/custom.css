@@ -42,17 +42,17 @@
 .yellow_bg_p {
   color: #272727 !important;
 }
-.section_p{
-    padding-top: 100px !important;
+.section_p {
+  padding-top: 100px !important;
 }
 
-.aLink a {
+.aLink a, .accordion-body a {
   color: blue;
 }
 .aLink a.fALink {
   color: #272727;
-  transition: .3s;
+  transition: 0.3s;
 }
-.aLink a.fALink:hover {
+.aLink a.fALink:hover, .accordion-body a:hover {
   color: rgb(139, 30, 30);
 }
